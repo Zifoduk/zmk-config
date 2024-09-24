@@ -76,7 +76,7 @@
         Arrow_F {
             bindings = <
 &trans  &trans     &trans     &trans        &trans        &trans    &trans  &trans    &kp UP    &trans     &trans  &trans
-&trans  &kp LCTRL  &kp LSHFT  &kp LEFT_GUI  &kp LEFT_ALT  &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &kp LSHFT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
 &trans  &trans     &trans     &trans        &trans        &trans    &trans  &trans    &trans    &trans     &trans  &trans
                               &trans        &trans        &trans    &trans  &trans    &trans
             >;
