@@ -75,10 +75,10 @@
 
         Arrow_F {
             bindings = <
-&trans  &trans     &trans     &trans        &trans        &trans    &trans  &trans    &kp UP    &trans     &trans    &trans
-&trans  &kp LSHFT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp HOME  &kp PG_UP
-&trans  &trans     &trans     &trans        &trans        &trans    &trans  &trans    &trans    &trans     &kp END   &kp PG_DN
-                              &trans        &trans        &trans    &trans  &trans    &trans
+&trans     &trans  &trans  &trans        &trans        &trans    &trans  &trans    &kp UP    &trans     &trans    &trans
+&kp LSHFT  &trans  &trans  &kp LEFT_GUI  &kp LEFT_ALT  &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp HOME  &kp PG_UP
+&kp LCTRL  &trans  &trans  &trans        &trans        &trans    &trans  &trans    &trans    &trans     &kp END   &kp PG_DN
+                           &trans        &trans        &trans    &trans  &trans    &trans
             >;
         };
     };
