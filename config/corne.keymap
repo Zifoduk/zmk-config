@@ -75,7 +75,7 @@
             bindings = <
 &kp F1     &kp F2           &kp F3       &kp F4                 &kp F5             &kp F6             &kp F7    &kp F8          &kp F9         &kp F10           &kp F11       &kp F12
 &kp LSHFT  &kp EXCLAMATION  &kp PERCENT  &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE     &kp AT    &kp UNDERSCORE  &kp EQUAL      &kp CARET         &kp GRAVE     &kp AMPERSAND
-&kp LCTRL  &kp DOLLAR       &kp POUND    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE    &kp PLUS  &kp MINUS       &kp LESS_THAN  &kp GREATER_THAN  &kp ASTERISK  &trans
+&kp LCTRL  &kp DOLLAR       &kp POUND    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE    &kp PLUS  &kp MINUS       &kp LESS_THAN  &kp GREATER_THAN  &kp ASTERISK  &kp PIPE
                                          &trans                 &trans             &kp SPACE          &kp RET   &trans          &trans
             >;
         };
