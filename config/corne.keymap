@@ -83,10 +83,28 @@
 
         Arrow_F {
             bindings = <
-&trans     &trans  &trans     &trans        &trans        &trans    &trans  &trans    &kp UP    &trans     &trans    &trans
+&trans     &trans  &trans     &trans        &trans        &trans    &trans  &trans    &kp UP    &trans     &trans    &tog 4
 &kp LSHFT  &trans  &trans     &kp LEFT_GUI  &kp LEFT_ALT  &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp HOME  &kp PG_UP
 &kp LCTRL  &trans  &kt K_CUT  &kp K_COPY    &kp K_PASTE   &trans    &trans  &trans    &trans    &trans     &kp END   &kp PG_DN
                               &trans        &trans        &trans    &trans  &trans    &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &trans  &trans  &trans  &trans  &kp ESCAPE  &trans
+&kp LSHFT  &kp A  &kp S  &kp D     &kp F  &kp G        &trans  &trans  &trans  &trans  &trans      &trans
+&kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &trans  &trans  &trans  &trans  &trans      &tog 0
+                         &kp LALT  &mo 5  &kp SPACE    &trans  &trans  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
