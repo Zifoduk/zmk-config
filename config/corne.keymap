@@ -21,7 +21,6 @@
             quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <15 16 19 20>;
-            hold-while-undecided;
         };
 
         caps: caps {
@@ -45,10 +44,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F                &kp P                &kp G        &kp J    &kp L                &kp U                &kp Y      &kp DEL   &kp ESCAPE
-&caps      &kp A  &kp R  &Homerow LEFT_GUI S  &Homerow LEFT_ALT T  &kp D        &kp H    &Homerow LEFT_ALT N  &Homerow LEFT_GUI E  &kp I      &kp O     &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C                &kp V                &kp B        &kp K    &kp M                &kp DOT              &kp COMMA  &kp SEMI  &mt RIGHT_ALT SLASH
-                         &mo 3                &mo 2                &kp SPACE    &kp RET  &mo 1                &kp BSPC
+&kp TAB    &kp Q  &kp W  &kp F                &kp P            &kp G        &kp J    &kp L                &kp U                &kp Y      &kp DEL   &kp ESCAPE
+&caps      &kp A  &kp R  &Homerow LEFT_GUI S  &Homerow LALT T  &kp D        &kp H    &Homerow LEFT_ALT N  &Homerow LEFT_GUI E  &kp I      &kp O     &kp SQT
+&kp LCTRL  &kp Z  &kp X  &kp C                &kp V            &kp B        &kp K    &kp M                &kp DOT              &kp COMMA  &kp SEMI  &mt RIGHT_ALT SLASH
+                         &mo 3                &mo 2            &kp SPACE    &kp RET  &mo 1                &kp BSPC
             >;
         };
 
